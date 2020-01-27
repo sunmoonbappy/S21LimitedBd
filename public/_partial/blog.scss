@@ -1,0 +1,35 @@
+.blog-item{
+    margin-bottom: 15px;
+    height: 100%;
+    .card-img-top {
+        height: 170px;
+        object-fit: cover;
+    }
+    .card-title {
+        margin-bottom: .75rem;
+        color: #777676;
+        font-size: 16px;
+    }
+    .card-text{
+        p{
+            font-size: 14px;
+        }
+    }
+}
+.single-post-thumb{
+    img{
+        width: 100%;
+    }
+}
+.single-post-content{
+    h3{
+        font-size: 24px;
+        color: #716363;
+        margin-top: 10px;
+    }
+    p{
+        color: #8e8e8e;
+        font-size: 15px;
+        line-height: 28px;
+    }
+}

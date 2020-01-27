@@ -1,0 +1,33 @@
+.mission-vission{
+    background: #f2f2f2;
+}
+.mission{
+    h3{
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    .mission-item{
+        margin-bottom: 15px;
+        img{
+            width: 100px;
+        }
+    }
+}
+
+.bangladesh-map {
+    display: table;
+    margin: 36px auto 10px;
+}
+
+.vission.text-center {
+    width: 100%;
+    margin-top: 30px;
+    p{
+        font-family: $zigzug;
+        font-size: 40px;
+        color: #5d5959;
+        strong{
+            color: $primary_color;
+        }
+    }
+}

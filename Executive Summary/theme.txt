@@ -1,0 +1,40 @@
+http://www.vasterad.com/themes/listeo_082019/
+https://www.lifung.com/
+http://expertsourcingbd.com/
+http://www.dkcompany.dk/
+
+
+1. How many page
+2.product category such as Menu type
+3.User Category
+i.Admin
+ii.Editor
+iii.Register User
+iv.Visitor
+4.Responsive
+5.Dynamic/Static
+6.All Page Edit: Yes/No
+7.Some Page Edit: Yes/No
+8. Business Type: Garment
+9.Register User
+i. Make Order
+ii.Details Summary 
+iii.Mail Option
+10.Delivery Day
+11.If any Template/Design Style Chose
+
+
+
+About them..
+  1. About Company
+  2. Mission & Vission
+  3. Terms & Condition	
+Service...
+  1. Which service they provide
+  2. Service Details
+  3. Service Related Image (if available)
+Product...
+  1. Product Category Name...(Example )
+Gallery...
+Contact Information
+Branches(if any)

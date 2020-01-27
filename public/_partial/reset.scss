@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+
+$title_font:'Great Vibes', cursive;
+$seconday_font:'Sanchez', serif;
+$zigzug:'Satisfy', cursive;
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+a,a:hover,a:focus{
+    text-decoration: none;
+}
+.bg-one{
+    background: $primary_color !important;
+}
+.section-padding{
+    padding: 60px 0px;
+}
+
+.mb-15{
+    margin-bottom: 15px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba($color: #000000, $alpha: 0.4);
+}
+
+ul.white-menu{
+    li{
+        color: #ffffff;
+        button{
+            color: #fff;
+            border: none;
+            i{
+                margin-right: 5px;
+            }
+        }
+        a{
+            color: #fff;
+            font-size: 14px;
+            i{
+                margin-right: 5px;
+            }
+        }
+    }
+}
+.primary-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background: $primary_color;
+}
+
+.text-color{
+    color: #777777;
+}
+
+.title-border{
+    width: 60px;
+    height: 3px;
+    display: inline-block;
+    background: $primary_color;
+}
+
+
+.section-title{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto 20px;
+    h2{
+        font-family: $seconday_font;
+        margin-bottom: 0;
+        font-size: 24px;
+        font-weight: 600;
+        color: #483a3a;
+    }
+}
+
+.head-title{
+    font-family: $seconday_font;
+    font-size: 18px;
+}
+
+.text-white{
+    color: #fff !important;
+}
+.bg-white{
+    background: #fff !important;
+}
+
+.bg-one{
+    background:#f8f8f8;
+}
+
+.owl-theme .owl-nav{
+    position: absolute;
+    right: -5px;
+    top: -65px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    width: 40px;
+    height: 40px;
+    background: $secondary_color;
+    font-size: 20px;
+    color: #fff;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ffffff;
+}
+
+.owl-dots {
+    margin-top: 15px;
+}
+
+.pb-15{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+ul{
+    list-style: none;
+    float: left;
+}
+
+.section-banner{
+    background: url('../front-end/images/about/banner.jpg');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    h2{
+        color: #fff;
+        z-index: 9;
+        font-size: 40px;
+    }
+}
+
+.empty-space{
+    height: 100px;
+}
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 9999999999;
+}
+
+.btn-transparent{
+    background: transparent;
+    border: none;
+    &:hover{
+        background: transparent;
+        border: none;
+    }
+}
+.btn-transparent:focus{
+    background: transparent;
+}

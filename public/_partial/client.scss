@@ -1,0 +1,76 @@
+.testimonial-section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.client-feedback {
+    width: 100%;
+    margin: 0 auto;
+    padding:0px;
+    margin-bottom: 15px;
+}
+.client-content{
+    i {
+        display: block;
+        text-align: center;
+        font-size: 40px;
+        color: $primary_color;
+        margin-bottom: 20px;
+    }
+    p{
+        margin: 0;
+        color: #fff;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+    }
+    
+}
+
+.client-info {
+    background: #fff;
+    width: 400px;
+    margin: 40px auto;
+    position: relative;
+    padding: 20px 15px;
+}
+
+.client-info::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -29px;
+    left: 50%;
+    transform: rotate(180deg);
+    border-top: 15px solid #ffffff;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid transparent;
+}
+
+
+.client-thumb{
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 15px;
+  img{
+      width: 100%;
+  }
+}
+
+.client-degination h4,.client-degination p{
+  color: #0077B5;
+  margin: 7px 0px;
+}
+.client-degination {
+    display: table;
+    text-align: center;
+    padding: 5px 14px;
+}
